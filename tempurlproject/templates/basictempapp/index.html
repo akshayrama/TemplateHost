@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'basictempapp/base.html' %}
+{% load newfilter %} }
+  {% block body_block %}
+    <h1>Welcome to index</h1>
+    <h1>Here we are at index </h1>
+    {{ text|title }}
+    {{ number|div10 }}
+  {% endblock %}
